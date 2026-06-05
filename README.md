@@ -17,9 +17,9 @@ flagscatterplot(x, y, country_codes, ax=None, zoom=0.1, flag_dir=DEFAULT_FLAG_DI
 ```
 
 Parameters:
-    - x, y: Arrays of coordinates.
-    - country_codes: Array of ISO Alpha-2 country codes (same length as x and y).
-    - ax: Matplotlib axes object (uses current axes if None).
-    - zoom: Scaling factor for the flag images.
-    - flag_dir: Directory containing the .png flag images.
-    - **kwargs: Standard matplotlib keyword args for scatterplots
+- x, y: Arrays of coordinates.
+- country_codes: Array of ISO Alpha-2 country codes (same length as x and y).
+- ax: Matplotlib axes object (uses current axes if None).
+- zoom: Scaling factor for the flag images.
+- flag_dir: Directory containing the .png flag images.
+- **kwargs: Standard matplotlib keyword args for scatterplots
