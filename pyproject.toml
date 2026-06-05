@@ -1,0 +1,18 @@
+[project]
+name = "pyplotflags"
+version = "0.1.0"
+authors = [
+  { name="Aidan Boyne", email="aidanboyne@gmail.com" },
+]
+description = "A matplotlib extension to replace scatterplot points with circular country flags."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pip>=26.1.2",
+    "matplotlib>=3.0.0",
+    "pycountry>=22.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
