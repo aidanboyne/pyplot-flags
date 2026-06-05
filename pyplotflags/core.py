@@ -28,7 +28,11 @@ def get_flag_filename(iso_code):
             name = getattr(country, 'common_name', country.name)            
             clean_name = name.lower().replace(',', '').replace(' ', '-')
             return f"{clean_name}.png"
+        else:
+            if iso_code == 'WO': return "world.png"
+            if iso_code == 'EU': return "eu.png"
         return None
+
     except Exception:
         return None
 
