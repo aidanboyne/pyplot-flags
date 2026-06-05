@@ -1,6 +1,6 @@
 [project]
 name = "pyplotflags"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="Aidan Boyne", email="aidanboyne@gmail.com" },
 ]
